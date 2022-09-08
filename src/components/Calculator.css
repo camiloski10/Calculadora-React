@@ -167,3 +167,11 @@ button:hover{
     background-position: center;
     color:transparent;
 }
+@media screen and (max-width: 600px) {
+    .wrapper{
+        width:416px;
+    }
+    body{
+        width:416px;
+    }
+}
