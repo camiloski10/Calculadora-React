@@ -18,7 +18,9 @@ export default function Calculator() {
 
   const limpiar= () => {
      setNum("")
-    setOperator("");
+    setOperator("")
+    setOldNum("")
+    num("");
   }
 
   function porcentaje() {
