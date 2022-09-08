@@ -32,7 +32,7 @@ export default function Calculator() {
     var operatorInput = e.target.value;
     setOperator(operatorInput);
     setOldNum(num);
-    setNum(0);
+    setNum("");
 
   }
 
