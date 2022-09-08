@@ -38,16 +38,16 @@ export default function Calculator() {
 
   function calcular() {
     if (operator === "/") {
-      setNum(parseInt(oldnum) / parseInt(num));
+      setNum(parseFloat(oldnum) / parseFloat(num));
     } else if (operator === "x") {
-      setNum(parseInt(oldnum) * parseInt(num));
+      setNum(parseFloat(oldnum) * parseFloat(num));
     } else if (operator === "-") {
         console.log(oldnum)
         console.log(num)
         console.log(oldnum-num)
-      setNum(parseInt(oldnum) - parseInt(num));
+      setNum(parseFloat(oldnum) - parseFloat(num));
     } else if (operator === "+") {
-      setNum(parseInt(oldnum) + parseInt(num));
+      setNum(parseFloat(oldnum) + parseFloat(num));
     }
   }
   return (
