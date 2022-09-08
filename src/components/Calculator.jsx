@@ -73,7 +73,7 @@ export default function Calculator() {
       <button className="gray" onClick={inputNum} value={3} id="tres">3</button>
       <button className="orange" onClick={operadores} value="+" id="suma">+</button>
       <button className="gray" onClick={inputNum} value={0} id="cero">0</button>
-      <button className="gray" onClick={inputNum} value={','}id="coma">,</button>
+      <button className="gray" onClick={inputNum} value={'.'}id="coma">,</button>
       <button className="gray" id="logo">!</button>
       <button onClick={calcular} value="=" id="igual">=</button>
       </div>
